@@ -2,7 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import Comment from "./comment";
 
-const NoCommentsView = styled.div``;
+const NoCommentsView = styled.div`
+  width: 100%;
+  background: aliceblue;
+  padding: 20px;
+  text-align: center;
+`;
 
 const ParentView = styled.div``;
 

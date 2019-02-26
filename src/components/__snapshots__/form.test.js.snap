@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders errors correctly 1`] = `
+<form
+  className="sc-bdVaJa bPGLpq"
+  onSubmit={[Function]}
+>
+  <div>
+    <label
+      className="sc-bwzfXH uTxCW"
+    >
+      Name *
+    </label>
+    <div
+      className="sc-ifAKCX ifRUKc"
+    >
+      Name cannot be empty.
+    </div>
+    <input
+      className="sc-htpNat drnJZU"
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value="Alice"
+    />
+  </div>
+  <div>
+    <label
+      className="sc-bwzfXH uTxCW"
+    >
+      Email *
+    </label>
+    <div
+      className="sc-ifAKCX ifRUKc"
+    >
+      Email cannot be empty.
+    </div>
+    <input
+      className="sc-htpNat drnJZU"
+      name="email"
+      onChange={[Function]}
+      type="email"
+      value="alice@gmail.com"
+    />
+  </div>
+  <div>
+    <label
+      className="sc-bwzfXH uTxCW"
+    >
+      Rating *
+    </label>
+    <div
+      className="sc-ifAKCX ifRUKc"
+    >
+      Name cannot be empty.
+    </div>
+    <input
+      className="sc-htpNat drnJZU"
+      max="5"
+      min="0"
+      name="rating"
+      onChange={[Function]}
+      step="1"
+      type="number"
+      value={3}
+    />
+  </div>
+  <div />
+  <label
+    className="sc-bwzfXH uTxCW"
+  >
+    Comment
+  </label>
+  <textarea
+    className="sc-bxivhb dqNOXg"
+    name="comment"
+    onChange={[Function]}
+    value="Quick comment"
+  />
+  <input
+    className="sc-htpNat drnJZU"
+    type="submit"
+  />
+</form>
+`;
+
+exports[`renders inputs correctly 1`] = `
+<form
+  className="sc-bdVaJa bPGLpq"
+  onSubmit={[Function]}
+>
+  <div>
+    <label
+      className="sc-bwzfXH uTxCW"
+    >
+      Name *
+    </label>
+    <input
+      className="sc-htpNat drnJZU"
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value="Alice"
+    />
+  </div>
+  <div>
+    <label
+      className="sc-bwzfXH uTxCW"
+    >
+      Email *
+    </label>
+    <input
+      className="sc-htpNat drnJZU"
+      name="email"
+      onChange={[Function]}
+      type="email"
+      value="alice@gmail.com"
+    />
+  </div>
+  <div>
+    <label
+      className="sc-bwzfXH uTxCW"
+    >
+      Rating *
+    </label>
+    <input
+      className="sc-htpNat drnJZU"
+      max="5"
+      min="0"
+      name="rating"
+      onChange={[Function]}
+      step="1"
+      type="number"
+      value={3}
+    />
+  </div>
+  <div />
+  <label
+    className="sc-bwzfXH uTxCW"
+  >
+    Comment
+  </label>
+  <textarea
+    className="sc-bxivhb dqNOXg"
+    name="comment"
+    onChange={[Function]}
+    value="Quick comment"
+  />
+  <input
+    className="sc-htpNat drnJZU"
+    type="submit"
+  />
+</form>
+`;

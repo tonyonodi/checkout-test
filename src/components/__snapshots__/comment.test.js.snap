@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 0 star comment correctly 1`] = `
+<div
+  className="sc-bdVaJa bDWFJH"
+>
+  <h3
+    className="sc-bwzfXH kfvjYX"
+  >
+    Bob
+  </h3>
+  <div
+    className="sc-htpNat gHoJWV"
+  />
+  <div
+    className="sc-bxivhb bUZGRr"
+  >
+    <p>
+      Not a huge fan
+    </p>
+  </div>
+</div>
+`;
+
+exports[`renders comment correctly 1`] = `
+<div
+  className="sc-bdVaJa bDWFJH"
+>
+  <h3
+    className="sc-bwzfXH kfvjYX"
+  >
+    Bob
+  </h3>
+  <div
+    className="sc-htpNat gHoJWV"
+  >
+    <span>
+      ⭐
+    </span>
+    <span>
+      ⭐
+    </span>
+  </div>
+  <div
+    className="sc-bxivhb bUZGRr"
+  >
+    <p>
+      Not a huge fan
+    </p>
+  </div>
+</div>
+`;

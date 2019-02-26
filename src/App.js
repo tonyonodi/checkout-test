@@ -19,16 +19,7 @@ export const initialState = {
     comment: "",
   },
   formErrors: {},
-  comments: [
-    {
-      name: "Alice",
-      email: "alice@gmail.com",
-      rating: 4,
-      comment: "Some comment.",
-      timeSubmitted: new Date(),
-      id: 1,
-    },
-  ],
+  comments: [],
 };
 
 export const reducer = (state, action) => {
